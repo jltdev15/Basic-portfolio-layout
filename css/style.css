@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #405;
+ 
+    
+}
+
+h1 { 
+    color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+h2 {
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+    color: #66BFBF;
+}
+h3 {
+    color: cadetblue;
+}
+hr {
+    border: dotted #ccd8d8;
+    border-bottom: none;
+    width: 2%;
+    margin: 100px auto;
+    
+}
+.profile-img {
+    border-radius: 80px ;
+    margin-top: 30px;
+}
+.web {
+    text-decoration:underline;
+    font-weight: normal;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.code-img {
+    border-radius: 200px;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+
+    
+}
+.chilli-img {
+    width: 20%;
+    float: right;
+    margin-left: 10px;
+    
+   
+}
+
+
+.top-container {
+background-color: #E4F9F5;
+position: relative;
+padding-top:100px;
+ 
+}
+.mid-container {
+    margin: 100px 0;
+ 
+}
+.intro {
+
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+}
+.bottom-container {
+    margin: auto;
+    background-color: #66BFBF;
+    padding: 30px 10px;
+
+}
+.bottom-container a {
+    padding: 20px;
+    text-decoration: none;
+    color: #c9edee;
+}
+.bottom-container a:hover{
+    color: #4b7475;
+}
+.bottom-container p {
+    margin-top: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+    
+}
+.contact-me {
+    margin-bottom: 50px;
+}
+.contact-me h2 {
+    text-transform: uppercase;
+}
+.contact-me p {
+    width: 35%;
+    margin: auto ;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
